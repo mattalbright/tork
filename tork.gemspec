@@ -22,9 +22,9 @@ Gem::Specification.new do |s|
   s.files += Dir['man/**/*.{html,css,js}']  # HTML man pages
   s.add_development_dependency 'md2man', '~> 2.0'
 
-  s.add_runtime_dependency 'binman', '~> 3.0'
-  s.add_runtime_dependency 'json', '~> 1.6'
-  s.add_runtime_dependency 'listen', '~> 0.7'
-  s.add_runtime_dependency 'diff-lcs', '~> 1.1'
-  s.add_development_dependency 'rake', '~> 0.9.2.2'
+  s.add_runtime_dependency 'binman', '~> 3.3'
+  s.add_runtime_dependency 'json', '~> 1.8'
+  s.add_runtime_dependency 'listen', '~> 1.3'
+  s.add_runtime_dependency 'diff-lcs', '~> 1.2'
+  s.add_development_dependency 'rake', '~> 10.1'
 end
